@@ -15,5 +15,9 @@ sudo apt install gdebi  # Most software can be installed this way
 # method 2
 # Use Gdebi to install ".deb" file
 # But at first, maybe you need to install Gdebi
+# After you completed the installation, you can finish it through the visual interface of this tool
+
+# method 3
+
 
 ```
