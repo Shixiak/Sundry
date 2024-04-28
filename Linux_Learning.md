@@ -21,3 +21,11 @@ sudo apt install gdebi  # Most software can be installed this way
 
 
 ```
+
+## Uninstallation
+
+> Except(how to find exact name) : https://blog.csdn.net/Hyaloidz/article/details/80144555
+```shell
+sudo apt remove purge packagename  # Delete configuration files while uninstalling software
+sudo apt remove packagename  # Just remove software
+```
