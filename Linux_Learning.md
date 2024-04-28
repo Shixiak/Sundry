@@ -29,8 +29,8 @@ sudo apt install gdebi  # Most software can be installed this way
 > Screen apps : https://blog.csdn.net/jiayoudangdang/article/details/79943065  
 
 ```shell
-sudo apt remove purge packagename  # Delete configuration files while uninstalling software
-sudo apt remove packagename  # Just remove software
+sudo apt remove --purge packagename  # Delete configuration files while uninstalling software
+sudo apt-get remove packagename  # Just remove software
 
 dpkg --get-selections | grep fuzzy_name  # screening of possible app 
 ```
