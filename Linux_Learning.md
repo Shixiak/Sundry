@@ -11,6 +11,7 @@ sudo apt install gdebi  # Most software can be installed this way
 ### methods of ".deb"
 
 > How to install ".deb" : https://zhuanlan.zhihu.com/p/339632982
+
 ``` shell
 # method 2
 # Use Gdebi to install ".deb" file
@@ -24,8 +25,23 @@ sudo apt install gdebi  # Most software can be installed this way
 
 ## Uninstallation
 
-> Except(how to find exact name) : https://blog.csdn.net/Hyaloidz/article/details/80144555
+> Except(how to find exact name) : https://blog.csdn.net/Hyaloidz/article/details/80144555  
+> Screen apps : https://blog.csdn.net/jiayoudangdang/article/details/79943065  
+
 ```shell
 sudo apt remove purge packagename  # Delete configuration files while uninstalling software
 sudo apt remove packagename  # Just remove software
+
+dpkg --get-selections | grep fuzzy_name  # screening of possible app 
+```
+
+## Cleaning up residual files
+
+> https://blog.csdn.net/Hyaloidz/article/details/80144555  
+
+```shell
+# file location
+# var/cache/apt/archives
+
+sudo apt clean
 ```
