@@ -45,3 +45,11 @@ dpkg --get-selections | grep fuzzy_name  # screening of possible app
 
 sudo apt clean
 ```
+
+## Create .venv
+
+> url : https://blog.csdn.net/weixin_44244190/article/details/134075563
+
+## Screen
+
+> tutorials : https://zhuanlan.zhihu.com/p/405968623
